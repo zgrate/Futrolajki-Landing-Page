@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+body{
+    background-color: #965fb3;
+    background-image: url("../images/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 10px auto;
+    font-family: Inconsolata, serif;
+
+}
+
+#main_container
+{
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+
+    background-color: lightblue;
+
+}
+
+.logo-internal{
+    width: 64px;
+    height: 64px;
+}
+
+@media (max-width: 800px) {
+    .logo-internal {
+        width: 3em;
+        height: 3em;
+    }
+}
+
+@media (max-width: 500px){
+    .break{
+        display: inline;
+    }
+}
+
+@media (min-width: 500px){
+    .break{
+        display: none;
+    }
+}
+
+.partner {
+    margin: 3px;
+}
+
